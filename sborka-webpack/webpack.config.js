@@ -71,7 +71,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'demo',
       template: path.resolve(__dirname, './src/html/index.html'),
-      filename: IS_PROD ? 'index.[contenthash].html' : 'index.html',
+      filename: 'index.html',
       // filename: 'index.html',
     }),
     new MiniCssExtractPlugin({
