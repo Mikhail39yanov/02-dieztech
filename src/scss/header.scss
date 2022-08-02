@@ -50,7 +50,7 @@
   margin-left: 10px;
 }
 
-.header__btn-group--phone {
+.header__btn-group-phone--mobile {
   display: none;
 }
 
@@ -176,7 +176,7 @@
     visibility: visible;
   }
 
-  .header__btn-group--phone {
+  .header__btn-group-phone--mobile {
     display: grid;
     justify-content: center;
     gap: 10px;
