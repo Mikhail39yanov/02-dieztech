@@ -1,0 +1,25 @@
+@import '_variables.scss';
+@import '_mixin.scss';
+
+.footer {
+  background-color: $colorGreyDarkDeep;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 60px;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: $fontWeightLight;
+    color: $colorWhite;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__text--phone {
+    display: none;
+  }
+}

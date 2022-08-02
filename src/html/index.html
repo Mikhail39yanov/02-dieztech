@@ -2,7 +2,6 @@
 <html lang="ru">
 
 <head>
-
   <%= require('html-loader!./head.html').default %>
     <title>
       <%= htmlWebpackPlugin.options.title %>
@@ -11,6 +10,11 @@
 
 <body>
   <%= require('html-loader!./header.html').default %>
+    <main>
+      <%= require('html-loader!./meropriyatia.html').default %>
+        <%= require('html-loader!./category.html').default %>
+    </main>
+    <%= require('html-loader!./footer.html').default %>
 </body>
 
 </html>
